@@ -1,6 +1,13 @@
 # Laravel REST Trait
 A collection of trait to build simple REST controller in Laravel.
     
+
+**Installing**
+
+`composer require mfarid/rest-api-trait`
+
+
+
 **Add it into your class**
     
 Example usage on a Controller Class :
