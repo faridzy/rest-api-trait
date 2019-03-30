@@ -10,7 +10,7 @@
     "type": "library",
     "keywords": ["trait","api","laravel"],
     "homepage": "https://github.com/faridzy/rest-api-trait",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
     },
     "require-dev": {
