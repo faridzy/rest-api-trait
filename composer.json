@@ -1,0 +1,24 @@
+{
+    "name": "mfarid/rest-api-trait",
+    "authors": [
+        {
+            "name": "faridzy",
+            "email": "faridzy09@gmail.com"
+        }
+    ],
+    "description": "Rest Api With Trait",
+    "type": "library",
+    "keywords": ["trait","api","laravel"],
+    "homepage": "https://github.com/faridzy/rest-api-trait",
+    "minimum-stability": "stable",
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Faridzy\\RestApiTrait\\": "src/Faridzy/RestApiTrait/"
+        }
+    }
+}
