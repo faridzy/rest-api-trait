@@ -26,16 +26,6 @@ just `use` the trait, and define `const MODEL` on your class.
 Please note that `store` and `update` **NOT** have any validation yet, so becareful when using it.
 
 
-**Using only Specific Trait**
-
-of course you can only use specific trait instead of complete trait from `TraitRestController`, but you must include `TraitRestConfig` and `TraitRestResponse` trait.
-for example if you want to just use `RestIndex` trait :
-
-    use TraitRestConfig, TraitRestResponse, TraitRestIndex;
-    
-or you can just copy `TraitRestController` and use it.
-    
-
 ## Usage
 After you use this trait on the controller, the next step is setup your application routes to point on that controller, please see Laravel routes documentation for it.
 
@@ -132,6 +122,6 @@ make sure you've added the sorted field to `sortable_field` configuration.
     
     
 ## Configuration
-see on `TraitRestConfig.php` file
+see on `Config.php` file
 
 

@@ -14,7 +14,7 @@ namespace Faridzy\RestApiTrait;
  * Trait TraitController
  * @package Faridzy\RestApiTrait
  */
-trait TraitController
+trait TraitRestController
 {
     use RestApiTrait;
 
