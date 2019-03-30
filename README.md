@@ -36,6 +36,16 @@ Please note that `store` and `update` **NOT** have any validation yet, so becare
 ## Usage
 After you use this trait on the controller, the next step is setup your application routes to point on that controller, please see Laravel routes documentation for it.
 
+Example routes:
+
+`Route::group(['prefix'=>'book'], function(){
+ 	Route::get('/', 'BookController@index');
+    Route::get('/show/{id}', 'BookController@show');
+    Route::post('/create', 'BookController@create');
+    Route::put('/update/{id}', 'BookController@update');
+    Route::delete('/delete/{id}', 'BookController@delete');
+});`
+
 all method will **always** return JSON result, 
 
 Example response on Index method with paginated result:
